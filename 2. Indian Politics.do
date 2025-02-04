@@ -1,15 +1,3 @@
-//Creating Political Controls//
-
-//Global Path laptop//
-global politics "C:\Users\Admin\Dropbox\Saptashya's thesis\data\ias tcpd\ias-release-main\Politics"
-global election "C:\Users\Admin\Dropbox\Saptashya's thesis\data\ias tcpd\ias-release-main\Election Data"
-
-
-//global paths ***When used in LAB***//
-global election "C:\Users\sg575\Dropbox\Saptashya's thesis\data\ias tcpd\ias-release-main\Election Data"
-global politics "C:\Users\sg575\Dropbox\Saptashya's thesis\data\ias tcpd\ias-release-main\Politics"
-
-
 
 //Using Besley Burgess Politics Data//
 use "$politics\Politics.dta", clear 
