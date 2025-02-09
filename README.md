@@ -1,6 +1,6 @@
-This repository contains two Stata do-files: 00_master and 01_Clean. By following the instructions below, you will generate a cleaned, appended dataset that can be used for panel data analysis.
+This repository contains two Stata do-files: 01_master and 02_Indian Politics. By following the instructions below, you will generate a cleaned, appended dataset that can be used for panel data analysis.
 
-Folder Setup Step 1: Create a Master file. Create a folder where all your data will be stored. This will be your "master" folder, containing subfolders for different stages of the data conversion process. Inside the master folder, create the subfolders.
+Folder Setup Step 1: Create a Master file. Create a folder where all data will be stored. This will be a "master" folder, containing subfolders for different stages of the data conversion process. Inside the master folder, create the subfolders.
 
 Step 2 Indian Politics.do Cleaning file:
 Inside the  cleaning file, the data for politics and Indian political parties have been cleaned. This contributes primarily in two ways. Firstly, this code extends the dataset Timothy J. Besley and Robin Burgess used at the London School of Economics & Political Science (LSE) for their research on The Political Economy of Government Responsiveness. The dataset they used had data till 2002 and has been extended until 2020. Secondly, it has compared the old data to the new data so that all the new political parties are now considered in the dataset. It has also made the vote share continuous and matched the old and new datasets so that the newly divided state boundaries can be easily tracked and compared.
